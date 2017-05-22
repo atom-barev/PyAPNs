@@ -329,7 +329,7 @@ class Payload(object):
             d['category'] = self.category
 
         if self.thread_id:
-            d.update({'thread_id': self.thread_id})
+            d.update({'thread-id': self.thread_id})
 
         if self.content_available:
             d.update({'content-available': 1})
